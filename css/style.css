@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+:root{
+    --lightgrey:rgba(74, 74, 74, 1);
+    --succes:rgba(73, 195, 2, 1);
+    --fail:rgba(229, 16, 16, 1)
+}
+body{
+    background-color: black;
+}
+
+/* header */
+
+header{
+    color: white;
+}
+
+.Speaker,.direction{
+    border: 1px solid var(--lightgrey);
+    background-color: var(--lightgrey);
+    padding: 0.3rem;    
+    margin-left: 0.5rem;
+    border-radius: 5px  ;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+/* /header */
+
+/* main */
