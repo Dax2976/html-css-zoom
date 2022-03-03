@@ -73,14 +73,14 @@ header{
     align-items: center;
 }
 
-.personal,.end{
-    width: 25%;
+.personal{
+    width: 20%;
     color: white;
     display: flex;
 }
 
 .member{
-    width: 50%;
+    width: 60%;
     color: white;
     /* display: flex; */
 }
@@ -95,9 +95,13 @@ ul{
     column-gap: 2rem;
 }
 
-.end{
+li{
+    text-align: center;
+}
+
+.bglight{
     background-color: var(--lightgrey);
-    padding: 28px;
+    
 }
 
 .span{
@@ -109,3 +113,10 @@ ul{
 .fa-chevron-up{
     align-self: center;
 }
+
+.end{
+    color: red;
+    display: flex;
+}
+
+
