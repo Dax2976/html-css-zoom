@@ -71,6 +71,7 @@ header{
     background-color:var(--nav);
     height: 75px;
     align-items: center;
+    gap: 6rem;
 }
 
 .personal{
@@ -101,7 +102,8 @@ li{
 
 .bglight{
     background-color: var(--lightgrey);
-    
+    display: flex;
+    align-items: center;
 }
 
 .span{
@@ -117,6 +119,9 @@ li{
 .end{
     color: red;
     display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: flex-end;
 }
 
 
